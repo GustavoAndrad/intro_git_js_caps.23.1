@@ -12,8 +12,8 @@ const dadosEntrada = [
 ];
 
 function separaNomesLetraG(dadosEntrada){
-    let nomesComLetraG = dadosEntrada.filter(dadosEntrada => (dadosEntrada.nome[0]==='G'));;
+    let nomesComLetraG = dadosEntrada.filter((dadosEntrada) => dadosEntrada.nome[0] == "G");
     return nomesComLetraG;
 }
 
-console.log("oi");
+console.log(separaNomesLetraG(dadosEntrada));
